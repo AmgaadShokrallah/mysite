@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "ritwickdey.liveserver",
-        "ms-vsliveshare.vsliveshare"
+        "ms-vscode.live-server"
     ]
 }
