@@ -43,7 +43,7 @@ header nav ul li a:hover {
     background: #575757;
 }
 
-.hero-section {
+.section {
     color: #fff;
     padding: 100px 20px;
     text-align: center;
@@ -55,19 +55,19 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-.hero-section h1 {
+.section h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.hero-section p {
+.section p {
     font-size: 1.2em;
     margin-bottom: 30px;
     max-width: 600px;
     margin: auto;
 }
 
-.hero-section .cta-button {
+.hero-section .button {
     background: #fff;
     color: #9e391f;
     padding: 15px 30px;
@@ -77,7 +77,7 @@ header nav ul li a:hover {
     transition: 0.3s ease, color 0.3s ease;
 }
 
-.hero-section .cta-button:hover {
+.section .button:hover {
     background: #837265;
     color: #fff;
 }
