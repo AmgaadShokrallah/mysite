@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title> Login Page </title>
-  <meta name="description" content=" This Is Descri
-  <style></style>
-  <script></script>
-  <link rel=" stylesheet" href="index.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login & regisration</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="container">
-    <h1>
-      <div>
-        the learning gate
-      </div>
-    </h1>
-    <div>
-      helps you to improve your language to connect with the people in your life.
+    <div class=" title container">
+        welcome to the learning gate
     </div>
-  </div>
-  <form action="" met>
-    <div>
-      <label>Username</label>
-      <input type="text" required placeholder="Username">
+    <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+            <header>login</header>
+            <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Enter your password">
+                <a href="#"> Forgot password?</a>
+                <input type="button" class="button" value="Login">
+            </form>
+            <div class="Signup">
+                <span class="signup">Create new account
+                <label for="check">Sign up</label>
+                </span>
+            </div>
+        </div>
+        <div class="regisration form">
+            <header>Signup</header>
+            <form action="#">
+                <input type="text" placeholder="Enter your email">
+                <input type="password" placeholder="Create a password">
+                <input type="password" placeholder="Confirme your password">
+                <input type="button" class="button" value="sign up">
+            </form>
+            <div class="Signup">
+                <span class="signup">Already have an account?
+                <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
     </div>
-    <br>
-    <div>
-      <label>password </label>
-      <input type=" password" required>
-    </div>
-    <div>
-      <input type="submit" value="Save">
-      <input type="reset" value="Reset">
-    </div>
-  </form>
-  <div>
-    <img src="" alt="">
-  </div>
 </body>
+</html>
